@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('poppins-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Italiana';
+    src: url('italiana-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+  font-family: "Poppins",Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(criss-cross.png);
+}
+
+.container {
+  max-width: 75em;
+  margin: 50px auto;
+  background-color: whitesmoke;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #aaaaaa;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 900;
+  color: #333;
+  font: 4em "Italiana";
+  text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.7);
+}
+
+.search-container {
+  margin-bottom: 20px;
+  text-align: right;
+}
+
+input[type="text"] {
+  padding: 8px;
+  margin-right: 4px;
+}
+
+button {
+  padding: 8px;
+  background-color: #4caf50;
+  color: #fff;
+  cursor: pointer;
+  transition: .5s;
+}
+.searchInput:hover{
+    transform: scale(1.3);
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+#dataCount {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-style: italic;
+}
